@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.word {
+  text-align: center;
+  position: absolute;
+  font-size: 2rem;
+  transform: rotate(-45deg);
+  user-select: none;
+}

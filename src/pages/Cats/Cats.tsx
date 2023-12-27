@@ -11,7 +11,7 @@ const Cats = () => {
     if (error) return <div>error, reset page...</div>
     if (loading) return <div>loading...</div>
     return (
-        <div>
+        <div className="container-cats">
             <Swiper
                 isButtonToggle={true}
                 cards={entities}
